@@ -24,8 +24,8 @@ npm install
 
 The service requires the following environment variables:
 
-- `API_URL`: The base URL for the Movable Ink GeoIP API (default: http://localhost:8000).  A production URL will be provided to you by Movable Ink.
-- `API_TOKEN`: Your API token for authentication (optional) with the Movable Ink GeoIP API.  A production token will be provided to you by Movable Ink.
+- `API_URL`: The base URL for the Movable Ink GeoIP API (default: http://localhost:8000).  A production URL will be provided by Movable Ink.
+- `API_TOKEN`: Your API token for authentication (optional) with the Movable Ink GeoIP API.  A production token will be provided by Movable Ink.
 - `PORT`: The port number for the service (default: 3000)
 
 ## Running the Service
