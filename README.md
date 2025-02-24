@@ -24,13 +24,13 @@ npm install
 
 The service requires the following environment variables:
 
-- `API_URL`: The base URL for the GeoIP API (default: http://localhost:8000)
-- `API_TOKEN`: Your API token for authentication (optional)
+- `API_URL`: The base URL for the Movable Ink GeoIP API (default: http://localhost:8000).  A production URL will be provided to you by Movable Ink.
+- `API_TOKEN`: Your API token for authentication (optional) with the Movable Ink GeoIP API.  A production token will be provided to you by Movable Ink.
 - `PORT`: The port number for the service (default: 3000)
 
 ## Running the Service
 
-Start the service:
+Start the service (don't forget to set your environment variables before starting):
 ```bash
 npm start
 ```
@@ -65,7 +65,7 @@ Example response:
 
 ### IP Address Testing Script
 
-The repository includes a bash script (`test-ips.sh`) that tests the service with a list of IP addresses from `test_ips.txt`.
+The repository includes a bash script (`test-ips.sh`) that tests the service with a list of IP addresses from `test_ips.txt`.  If test_ips.txt is not available you can create your own file and enter an ip address per line for testing.  For the assignment the test_ips.txt file will be provided by Movable Ink.
 
 To run the tests:
 
